@@ -145,6 +145,18 @@ public:
     void karyawan() {
         system("cls");
         cout << "====== MENU KARYAWAN ======" << endl;
+	cout << "Selamat datang "<<nama <<endl;
+	cout << "1. Tampilkan Daftar Tugas"<<endl;
+	cout << "2. Input Tugas"<<endl;
+	cout << "3. Ganti Tugas"<<endl;
+	cout << "0. Keluar"<<endl;
+	cout << "Pilih menu : "; cin >> pilihan;
+	switch(pilihan){
+	
+	case 1:	break;
+	case 2: break;
+	case 3: break;
+	}
     }
 };
 
